@@ -21,7 +21,7 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
 
-    - name: Testing Customer Service
+    - name: Test Customer Service
       working-directory: ./customer
       run: |
         npm ci
